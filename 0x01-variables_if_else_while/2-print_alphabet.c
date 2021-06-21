@@ -9,9 +9,15 @@
  */
 int main(void)
 {
-	char al = 'abcdefghijklmnopqrstuvwxyz';
+	char ch = 'a';
 
-	putchar(al);
+	while (ch <= 'z')
+	{
+		putchsr(ch);
+		ch++;
+	}
+
+	putchar('\n');
 	return (0);
 }
 
