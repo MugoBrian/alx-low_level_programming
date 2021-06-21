@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-	ch al = 'abcdefghijklmnopqrstuvwxyz'
+	char al = 'abcdefghijklmnopqrstuvwxyz';
 
-		putchar(al)
-		return (0);
+	putchar(al);
+	return (0);
 }
 
