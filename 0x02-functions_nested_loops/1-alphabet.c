@@ -16,13 +16,3 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-/**
- *main - entry of program
- *Description: prints alphabets
- *Return:0
- */
-int main(void)
-{
-	print_alphabet(void);
-	return (0);
-}
