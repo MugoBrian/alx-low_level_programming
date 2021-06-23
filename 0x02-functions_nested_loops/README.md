@@ -1,1 +1,1 @@
-This directory contains programs of C functuons.
+# C Functions and Nested Loops

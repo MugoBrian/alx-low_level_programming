@@ -1,9 +1,8 @@
 #include "holberton.h"
 /**
- *main -entry point
- *Description: prints Holberton
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * main - Print "Holberton" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
  */
 int main(void)
 {
