@@ -9,9 +9,15 @@
  */
 int main(void)
 {
-	char hol = "Holberton";
+	char holberton[] = "Holberton";
+	int i = 0;
 
-	_putchar(hol);
+	while (holberton[i] != '\0')
+	{
+		_putchar(holberton[i]);
+		i++;
+	}
 	_putchar('\n');
+
 	return (0);
 }
