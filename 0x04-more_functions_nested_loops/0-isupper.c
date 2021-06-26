@@ -7,7 +7,7 @@
  *Return: 1 if its uppercase,0 otherwise
  */
 
-int _isupper(int ch)
+int _isupper(int c)
 {
 	if ((ch >= 'A') && (ch <= 'Z'))
 		return (1);
