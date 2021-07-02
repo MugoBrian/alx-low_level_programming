@@ -1,10 +1,9 @@
 #include "holberton.h"
 
 /**
- *_isdigit - checks if its a number
- *Description: the functions checks a number btn  *0-9
- *@c: parameter to be evaluated
- *Return:1 if a number ,0 otherwise
+ * _isdigit -  a function that checks for a digit 0-9
+ * @c: input
+ * Return: 1 if c is a digit, 0 otherwise
  */
 int _isdigit(int c)
 {
