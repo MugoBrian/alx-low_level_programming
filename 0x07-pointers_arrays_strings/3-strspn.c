@@ -18,8 +18,10 @@ while (*s)
 for (i = 0; accept[i]; i++)
 {
 if (*s == accept[i])
+{
 total++;
 break;
+}
 }
 else if (accept[i + 1] == '\0')
 {
