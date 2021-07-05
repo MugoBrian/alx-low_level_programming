@@ -22,7 +22,6 @@ if (*s == accept[i])
 total++;
 break;
 }
-}
 else if (accept[i + 1] == '\0')
 {
 return (total);
@@ -30,4 +29,5 @@ return (total);
 s++;
 }
 return (total);
+}
 }
