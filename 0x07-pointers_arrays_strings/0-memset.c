@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *_memset() - function fills first
+ *_memset - function fills first
  *Description:The function fills the first n bytes of the memory area pointed
  *to by s with the constant byte b.
  *@s:A pointer to the memory area with
@@ -12,11 +12,11 @@
  */
 char *_memset(char *s, char b, usigned int n)
 {
-  unsigned int i;
+unsigned int i;
 
-  for (i = 0; i < n; i++)
-  {
-    s[i] = b;
-  }
-  return (s);
+for (i = 0; i < n; i++)
+{
+s[i] = b;
 }
+return (s);
+
