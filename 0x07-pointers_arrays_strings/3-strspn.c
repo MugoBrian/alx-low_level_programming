@@ -8,10 +8,10 @@
  *Return: number of bytes in the initial segment of s
  */
 
-unsigned int _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, character *accept)
 {
-int i;
 unsigned int total = 0;
+int i;
 
 while (*s)
 {
@@ -28,6 +28,7 @@ return (total);
 }
 s++;
 }
-return (total);
 }
+}
+return (total);
 }
