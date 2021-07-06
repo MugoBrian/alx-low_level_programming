@@ -2,7 +2,7 @@
 
 /**
  *_strspn - calculates number of bytes
- *Description:Gets the lenght of a prefix substring.
+ *Description:Gets the length of a prefix substring.
  *@s:The array of the string
  *@accept:The prefix substring
  *Return: number of bytes in the initial segment of s
@@ -11,7 +11,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 int i;
-int total = 0;
+unsigned int total = 0;
 
 while (*s)
 {
