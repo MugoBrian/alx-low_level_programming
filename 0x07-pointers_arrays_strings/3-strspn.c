@@ -26,9 +26,8 @@ else if (accept[i + 1] == '\0')
 {
 return (total);
 }
+}
 s++;
-}
-}
 }
 return (total);
 }
