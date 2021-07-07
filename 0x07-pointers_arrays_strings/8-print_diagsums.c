@@ -24,6 +24,6 @@ for (i = 0; i < size; i++)
 total2 += a[i];
 a -= size;
 }
-printf("%d,%d\n", total1, total2);
+printf("%d, %d\n", total1, total2);
 }
 
