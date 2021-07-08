@@ -9,7 +9,6 @@
 
 int is_prime_number(int n)
 {
-int i;
 if (n < 2)
 {
 return (0);
@@ -18,10 +17,7 @@ if (n < 4)
 {
 return (1);
 }
-else
-{
-return (prime(n, 1));
-}
+return (prime(n, 2));
 }
 
 /**
@@ -53,7 +49,7 @@ return (sqrt(x, i + 1));
  */
 int prime(int n, int d)
 {
-if (x % d == 0)
+if (n % d == 0)
 {
 return (0);
 }
