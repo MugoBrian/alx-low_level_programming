@@ -28,7 +28,7 @@ return (prime(n, 2));
  */
 
 int sqrt(int x, int i)
-{;
+{
 int sq;
 sq = i * i;
 if (sq >= x)
