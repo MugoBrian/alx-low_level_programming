@@ -27,7 +27,6 @@ return (is_divisible(n, d + 1));
  *is_prime_number - helper function that determines the prime number
  *Description: determines if its a prime number
  *@n: number to test
- *@d: number increment
  *Return: returns 1
  */
 
