@@ -30,7 +30,8 @@ return (is_divisible(n, d + 1));
  *@d: number increment
  *Return: returns 1
  */
-int is_prime_number(int n, int d)
+
+int is_prime_number(int n)
 {
 int d = 2;
 
