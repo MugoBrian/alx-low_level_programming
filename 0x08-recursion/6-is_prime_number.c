@@ -1,5 +1,8 @@
 #include "holberton.h"
 
+int is_prime_number(int n);
+int sqrt(int x, int i);
+int prime(int n, int d);
 /**
  *is_prime_number - function of prime number
  *Description: a function that returns 1 if integer is a prime number
@@ -30,6 +33,7 @@ return (prime(n, 2));
 int sqrt(int x, int i)
 {
 int sq;
+
 sq = i * i;
 if (sq >= x)
 {
