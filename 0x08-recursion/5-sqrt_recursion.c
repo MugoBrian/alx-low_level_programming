@@ -26,7 +26,7 @@ if (sqre == c)
 {
 return (i);
 }
-else if (sq < c)
+else if (sqre< c)
 {
 return (c, sq(c, i + 1));
 }
