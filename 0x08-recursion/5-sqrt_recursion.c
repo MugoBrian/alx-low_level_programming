@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+int sq(int c, int i);
 /**
  *_sqrt_recursion - returns the natural square root
  *Description: function that returns the natural square root of a number
@@ -35,4 +35,3 @@ else
 return (-1);
 }
 }
-
