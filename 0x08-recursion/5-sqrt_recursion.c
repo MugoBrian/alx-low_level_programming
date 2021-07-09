@@ -28,7 +28,7 @@ return (i);
 }
 else if (sqre < c)
 {
-return (c, sq(c, i + 1));
+return (sq(c, i + 1));
 }
 else
 {
