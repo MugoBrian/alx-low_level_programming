@@ -4,8 +4,8 @@
 
 /**
  *str_concat - returns pointer of contents of s1 followed by s2.
- *Description: The returned pointer should point to a newly allocated space 
- *in memory which contains the contents of s1, followed by the contents of s2, 
+ *Description: The returned pointer should point to a newly allocated space
+ *in memory which contains the contents of s1, followed by the contents of s2,
  *and null terminated
  *@s1: string 1
  *@s2: string 2
@@ -20,9 +20,12 @@ int j = 0;
 int con = 0;
 
 
-if (s1 && s2 == NULL)
+if (s2 == NULL)
 {
 s2 = "";
+}
+if (s1 == NULL)
+{
 s1 = "";
 }
 for (i = 0; s1[i] || s2[i]; i++)
