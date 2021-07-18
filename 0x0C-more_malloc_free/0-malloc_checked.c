@@ -5,7 +5,7 @@
 /**
  *malloc_checked - allocates memory
  *Description: allocates memory using malloc function and returns a pointer
- *@b:bytes 
+ *@b:bytes
  *Return: if fails returns 98 value else return a pointer
  */
 
