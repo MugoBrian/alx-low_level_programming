@@ -1,8 +1,3 @@
-/*
- * File: 5-free_dog.c
- * Author: Ukonu Divine Chisom
- */
-
 #include "dog.h"
 
 /**
