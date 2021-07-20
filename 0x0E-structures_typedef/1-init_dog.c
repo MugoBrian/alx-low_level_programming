@@ -1,6 +1,6 @@
 /*
  * File: 1-init_dog.c
- * Author: Ukonu Divine Chisom
+ * Author: Mugo Brian
  */
 
 #include "dog.h"
